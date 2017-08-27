@@ -42,4 +42,4 @@ yarn-error.log
 .DS_Store
 Thumbs.db
 
-/src/app/firebase.config.ts
+/src/app/fire*

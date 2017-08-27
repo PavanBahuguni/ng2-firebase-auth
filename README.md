@@ -4,14 +4,16 @@ Live demo at [Angular Firebase authentication](https://ng2-auth-b797a.firebaseap
 
 ## Configure firebase
  Create a firebase project and add the configuration in to the file /src/app/firebase.config.ts as follows
- `export const FIREBASE_CONFIG = {
+ ```
+ export const FIREBASE_CONFIG = {
 	  apiKey: <api_key>,
 	  authDomain: <auth_domain>,
 	  databaseURL: <database_url>,
 	  projectId: <project_id>,
 	  storageBucket: '',
 	  messagingSenderId: <messaging_sender_id>
-  };`
+  };
+  ```
 
 ## Development server
 

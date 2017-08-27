@@ -1,0 +1,24 @@
+[debug] [2017-08-27T18:27:45.577Z] ----------------------------------------------------------------------
+[debug] [2017-08-27T18:27:45.581Z] Command:       /Users/pavanbahuguni/.nvm/versions/node/v6.9.0/bin/node /Users/pavanbahuguni/.nvm/versions/node/v6.9.0/bin/firebase open
+[debug] [2017-08-27T18:27:45.582Z] CLI Version:   3.9.2
+[debug] [2017-08-27T18:27:45.582Z] Platform:      darwin
+[debug] [2017-08-27T18:27:45.582Z] Node Version:  v6.9.0
+[debug] [2017-08-27T18:27:45.583Z] Time:          Sun Aug 27 2017 23:57:45 GMT+0530 (IST)
+[debug] [2017-08-27T18:27:45.583Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-08-27T18:27:45.603Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-08-27T18:27:45.603Z] > authorizing via signed-in user
+[debug] [2017-08-27T18:27:45.606Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-08-27T18:27:45.606Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/EuBqPMdtSCbK_1fF_ecEJgM_aD8wO0Pzes18XEUDcs0',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Aug 27 2017 23:57:45 GMT+0530 (IST)
+[debug] [2017-08-27T18:27:46.467Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-27T18:27:46.469Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ng2-auth-b797a  
+ Sun Aug 27 2017 23:57:46 GMT+0530 (IST)
+[debug] [2017-08-27T18:27:49.069Z] <<< HTTP RESPONSE 200
+[debug] [2017-08-27T18:27:49.072Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ng2-auth-b797a/tokens  
+ Sun Aug 27 2017 23:57:49 GMT+0530 (IST)
+[debug] [2017-08-27T18:27:50.546Z] <<< HTTP RESPONSE 200

@@ -4,8 +4,8 @@
   <span class="error" *ngIf="error" [@fallIn]='state'>{{ error }}</span>
 
 	<form #formData="ngForm" (ngSubmit)="onSubmit(formData)">
-    <input type="text" placeholder="Email" (ngModel)="email" name="email" class="text" required>
-    <input type="password" placeholder="Password" (ngModel)="password" name="password" class="text" required>
+    <input type="text" placeholder="Email" name="email" class="text" required>
+    <input type="password" placeholder="Password" name="password" class="text" required>
     <button type="submit" [disabled]="!formData.valid" class="basic-btn">Create my account</button>
 	</form>
 </div>
